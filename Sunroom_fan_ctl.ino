@@ -165,13 +165,13 @@ void loop(void)
   {
     fan_status = 1;
     digitalWrite(ledPin, HIGH);
-    delay(1000);
+    delay(30000);
   }
     if (stop_temp > tempSRoomF)
   {
     fan_status = 0;
     digitalWrite(ledPin, LOW);
-    delay(1000);
+    delay(30000);
   }
 
   Serial.print(" Start Fan at "); Serial.print(start_temp);
