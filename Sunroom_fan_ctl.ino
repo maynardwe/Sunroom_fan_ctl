@@ -77,7 +77,7 @@ void setup(void)
   
   /* Display some basic information on this sensor */
   displaySensorDetails();
-  Serial.println("Sunroom_fan_temp_pressure");
+  Serial.println("Sunroom_fan_ctl");
   pinMode(Btn_start_temp, INPUT);
   pinMode(Btn_stop_temp, INPUT);
   pinMode(ledPin, OUTPUT);
